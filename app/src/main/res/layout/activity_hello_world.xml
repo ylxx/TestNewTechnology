@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hello_world"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.newtechnology.www.testnewtechnology.mvp.HelloWorldActivity">
+
+    <TextView
+        android:text="@string/showmodel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_show"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+    <Button
+        android:text="@string/showhello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_hellow"/>
+    <Button
+        android:text="@string/showgoodbye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_goodbye"/>
+
+</LinearLayout>

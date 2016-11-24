@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TestNewTechnology</string>
+    <string name="mvp_test">MVP</string>
+    <string name="showhello">show hello</string>
+    <string name="showgoodbye">show bye</string>
+    <string name="showmodel">show model</string>
+    <string name="butterknife">butter knife</string>
+    <string name="showtoast">show toast</string>
+    <string name="bus_event">BUS EVENT</string>
+    <string name="ok_http">OK HTTP</string>
+    <string name="rx_java">RX JAVA</string>
+</resources>

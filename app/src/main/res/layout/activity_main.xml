@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.newtechnology.www.testnewtechnology.activity.MainActivity">
+
+    <Button
+        android:id="@+id/btn_mvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mvp_test"/>
+    <Button
+        android:id="@+id/btn_butter_knife"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/butterknife"/>
+    <Button
+        android:id="@+id/btn_bus_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bus_event"/>
+    <Button
+        android:id="@+id/btn_ok_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok_http"/>
+    <Button
+        android:id="@+id/btn_rx_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rx_java"/>
+</LinearLayout>
