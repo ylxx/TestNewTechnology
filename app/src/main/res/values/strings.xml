@@ -9,4 +9,8 @@
     <string name="bus_event">BUS EVENT</string>
     <string name="ok_http">OK HTTP</string>
     <string name="rx_java">RX JAVA</string>
+    <string name="mosby_mvp_activity">mosby方式</string>
+    <string name="original_mvp_activity">original方式</string>
+    <string name="recycle_view">recycle view</string>
+    <string name="recycle_bt1">最基本recycle view</string>
 </resources>

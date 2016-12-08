@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mvp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.newtechnology.www.testnewtechnology.mvp.MyMvpActivity">
+
+    <Button
+        android:id="@+id/btn_mosby_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mosby_mvp_activity"/>
+    <Button
+        android:id="@+id/btn_original_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/original_mvp_activity"/>
+
+</LinearLayout>

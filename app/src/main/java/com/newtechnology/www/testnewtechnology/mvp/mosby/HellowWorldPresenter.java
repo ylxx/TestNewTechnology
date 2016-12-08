@@ -1,4 +1,4 @@
-package com.newtechnology.www.testnewtechnology.mvp;
+package com.newtechnology.www.testnewtechnology.mvp.mosby;
 
 import com.hannesdorfmann.mosby.mvp.MvpBasePresenter;
 

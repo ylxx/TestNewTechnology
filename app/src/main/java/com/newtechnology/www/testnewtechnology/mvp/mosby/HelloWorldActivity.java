@@ -1,4 +1,4 @@
-package com.newtechnology.www.testnewtechnology.mvp;
+package com.newtechnology.www.testnewtechnology.mvp.mosby;
 
 import android.graphics.Color;
 import android.os.Bundle;

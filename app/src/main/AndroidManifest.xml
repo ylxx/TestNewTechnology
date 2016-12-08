@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.newtechnology.www.testnewtechnology">
+    package="com.newtechnology.www.testnewtechnology">
 
     <application
         android:allowBackup="true"
@@ -10,21 +10,21 @@
         android:theme="@style/AppTheme">
         <activity android:name=".activity.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".mvp.HelloWorldActivity">
-        </activity>
-        <activity android:name=".butterknife.ButterKnifeActivity">
-        </activity>
-        <activity android:name=".rxjava.RxJavaActivity">
-        </activity>
-        <activity android:name=".okhttp.OkHttpActivity">
-        </activity>
-        <activity android:name=".busevent.BusEventActivity">
-        </activity>
+        <activity android:name=".mvp.mosby.HelloWorldActivity" />
+        <activity android:name=".butterknife.ButterKnifeActivity" />
+        <activity android:name=".rxjava.RxJavaActivity" />
+        <activity android:name=".okhttp.OkHttpActivity" />
+        <activity android:name=".busevent.BusEventActivity" />
+        <activity android:name=".mvp.MyMvpActivity" />
+        <activity android:name=".mvp.original.OriginalMvpActivity" />
+        <activity android:name=".recycleview.RecycleViewActivity" />
+        <activity android:name=".recycleview.RecycleViewOneActivity" />
+        <activity android:name=".activity.BaseActivity"></activity>
     </application>
 
 </manifest>
